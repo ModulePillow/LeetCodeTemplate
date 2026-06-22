@@ -42,6 +42,8 @@
 #define CPP_VERSION __cplusplus
 #endif
 
+#define _GLIBCXX_HOSTED 1
+
 using namespace std;
 
 // C

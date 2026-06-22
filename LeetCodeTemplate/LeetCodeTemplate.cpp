@@ -6,16 +6,12 @@
 // 1 Set the SolutionID.
 // 2 Implement ur external function at any .cpp file (term: a translation unit): void main<SolutionID>();
 // 3 Debug ur program.
-//
 // 
 // 快速教程:
 // 1 设置 SolutionID。
 // 2 在任意 .cpp 文件（术语：翻译单元）实现: void main<SolutionID>();
 // 3 调试。
 //////////////////////////////////////////////
-
-#include <iostream>
-#include "stdc++.h"
 
 #define Concat(x, y) x##y
 
