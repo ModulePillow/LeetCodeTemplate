@@ -1,8 +1,8 @@
 <img src="sticker.jpg" width="100" height="100"></img>
 ## LeetCode C++ Template Solution | LeetCode C++ 模板工程
-一个C++模板工程用于管理多个LeetCode答案。不需要写 include 任何 std 头文件和 “std::” 前缀。
+一个 C++ 模板工程用于管理多个 LeetCode 答案。不需要 include 任何 std 头文件和写 “std::” 名称前缀。
 
-A C++ template solution to manage multiple LeetCode answers simultaneously. No need to include any std headers and write the "std::" prefix.
+A C++ template solution to manage multiple LeetCode answers simultaneously. No need to include any std headers and write the "std::" namespace prefix.
 
 
 ## Example | 示例
