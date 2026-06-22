@@ -1,13 +1,9 @@
 <img src="sticker.jpg" width="100" height="100"></img>
 ## LeetCode C++ Template Solution | LeetCode C++ 模板工程
+一个C++模板工程用于管理多个LeetCode答案。不需要写 include 任何 std 头文件和 “std::” 前缀。
 
-A C++ template solution to manage multiple LeetCode answers simultaneously. 
+A C++ template solution to manage multiple LeetCode answers simultaneously. No need to include any std headers and write the "std::" prefix.
 
-No need to include any std headers and write the "std::" prefix.
-
-一个C++模板工程用于管理多个LeetCode答案。
-
-不需要包含任何 std 头文件和写 “std::” 前缀。
 
 ## Example | 示例
 ```cpp
@@ -26,6 +22,17 @@ void main0()
 ```
 
 ## How it works | 工作原理
+外部链接和宏设计。你可以在 LeetCodeTemplate.cpp 中观察它们的设计。
+
 External linkage and macro designs. You can investigate them in LeetCodeTemplate.cpp.
 
-外部链接和宏设计。你可以在 LeetCodeTemplate.cpp 中观察它们的设计。
+## IDE and Compiler | IDE 和编译器
+> IDE: Visual Sudio 2022.
+> 
+> Compiler: MSVC 或 Clang。在 *Properties>General>Platform Toolset* 处选择编译器。如果你想用 Clang, 你应该在 VS Installer 中先安装它。
+
+> IDE: Visual Sudio 2022.
+> 
+> Compiler: MSVC or Clang. Choose the compiler at *Properties>General>Platform Toolset*. If you prefer Clang, you should install it in the VS Installer first.
+
+
