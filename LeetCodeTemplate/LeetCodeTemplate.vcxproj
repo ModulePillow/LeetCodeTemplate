@@ -132,6 +132,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LeetCodeTemplate.cpp" />
+    <ClCompile Include="Regex.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdc++.h" />
