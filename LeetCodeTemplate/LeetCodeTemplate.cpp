@@ -1,16 +1,17 @@
 //////////////////////////////////////////////
-//
+
 #define SolutionID 0
-//
+
 // Quick Tutorial:
-// 1 Set the SolutionID.
-// 2 Implement ur external function at any .cpp file (term: a translation unit): void main<SolutionID>();
+// 1 Set the SolutionID here.
+// 2 Implement ur external function at **any** .cpp file (term: a TU): void main<SolutionID>();
 // 3 Debug ur program.
 // 
-// 快速教程:
-// 1 设置 SolutionID。
-// 2 在任意 .cpp 文件（术语：翻译单元）实现: void main<SolutionID>();
-// 3 调试。
+// 教程:
+// 1 在这里设置 SolutionID。
+// 2 在 **任意** .cpp 文件（术语：翻译单元）中实现： void main<SolutionID>()；
+// 3 去调试。
+// 
 //////////////////////////////////////////////
 
 #define Concat(x, y) x##y
@@ -24,11 +25,15 @@ int main()
    RunSolution(SolutionID);
 }
 
-// An example. Notice that u don't need to include std headers since stdc++.h exists, nor do you need the "std::" prefix.
-// 一个例子。注意，你不需要包含 std 头文件，因为 stdc++.h 已存在；也无需 "std" 前缀。
+// An example. Notice that u don't need to include std headers since stdc++.h was included
+// implictly (C/C++ > Advanced > Forced Include File), nor do you need the "std::" prefix.
+// 
+// 例子。注意你不用包含 std 头文件，因为 stdc++.h 已被隐式包含
+// （C/C++ > Advanced > Forced Include File）；也无需 "std" 前缀。
+//
 void main0()
 {
-   vector<string> strings{ "Hello", "world", "."};
+   vector<string> strings{ "Hello", ",", "world", "!"};
    for(auto& str : strings)
    {
       cout << str << " ";
