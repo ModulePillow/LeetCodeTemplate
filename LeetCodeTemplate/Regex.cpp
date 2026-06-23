@@ -9,7 +9,7 @@ void mainRegex()
       "https://moegirl.icu/Mainpage",
    };
 
-   regex pattern { R"(https:\/\/(.*)$)" };
+   regex pattern { R"(https://(.*)$)" };
 
    int32_t count = 0;
    for (const auto& url : cases)
