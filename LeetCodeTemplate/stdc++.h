@@ -1,7 +1,6 @@
 // A custom version of stdc++.h.
 
 
-
 // C++ includes used for precompiling -*- C++ -*-
 
 // Copyright (C) 2003-2025 Free Software Foundation, Inc.
@@ -33,7 +32,6 @@
  // 17.4.1.2 Headers
 
 
-
 #pragma once
 
 #if defined(_MSVC_LANG)
@@ -43,8 +41,6 @@
 #endif
 
 #define _GLIBCXX_HOSTED 1
-
-using namespace std;
 
 // C
 #ifndef _GLIBCXX_NO_ASSERT
@@ -260,3 +256,5 @@ using namespace std;
 #endif
 
 #endif // HOSTED
+
+using namespace std;
