@@ -131,12 +131,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="client.cpp" />
+    <ClCompile Include="game.cpp" />
     <ClCompile Include="LeetCodeTemplate.cpp" />
     <ClCompile Include="Regex.cpp" />
     <ClCompile Include="TeslaJobSystem.cpp" />
     <ClCompile Include="Unity_06_23.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="client.h" />
+    <ClInclude Include="game.h" />
     <ClInclude Include="stdc++.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\TeslaGameServer">
+      <UniqueIdentifier>{f2275382-82b5-4fbe-b6d8-19a75a4b89cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCodeTemplate.cpp">
@@ -27,10 +30,22 @@
     <ClCompile Include="TeslaJobSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>Source Files\TeslaGameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files\TeslaGameServer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdc++.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Source Files\TeslaGameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Source Files\TeslaGameServer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
